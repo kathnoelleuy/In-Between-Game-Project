@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In Between Game</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+    <div class="header-title">
+        <h1>In-between Game</h1>
+        <div class="mechanics">
+            <h3>Game Mechanics:</h3>
+            <p>Guess if the third number is between Card 1 and Card 2. <br>
+                If they are identical, guess if Card 3 is higher or lower. <br>
+                If you guessed right, you get a point! You lose a point if not. <br>
+                If you click "No Deal", your total score will be deducted.
+            </p>
+
+        </div>
+        <h4 id="round">Round: 1</h4>
+        <h4 id="score">Score: 0</h4>
+
+        <div class="cards">
+            <h4>Card 1: </h4>
+            <p id="card1"></p>
+
+            <h4>Card 2: </h4>
+            <p id="card2"></p>
+
+            <h4 id="deck">Card 3: </h4>
+            <p id="card3"></p>
+
+            <h3 id="status"></h3>
+
+            <div class="buttons">
+                <button class="btn1" id="deal">Deal</button>
+                <br><br>
+
+                <button class="btn2" id="nodeal">No Deal</button>
+                <br><br>
+
+                <button class="btn1" id="higher">Higher</button>
+                <br><br>
+
+                <button class="btn2" id="lower">Lower</button>
+                <br><br>
+
+                <button class="btn3" id="next_round">Next Round</button>
+                <br><br>
+                <button class="btn3" id="try_again">Try Again</button>
+                <br><br>
+            </div>
+        </div>
+    </div>
+    <script src="game.js"></script>
+</body>
+
+</html>

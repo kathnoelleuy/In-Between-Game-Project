@@ -1,0 +1,141 @@
+.header-title {
+  text-align: center;
+  background-color: #fef9ef;
+  width: 650px;
+  margin: auto;
+  width: 50%;
+  border: 5px solid #17c3b2;
+  border-radius: 10px;
+  padding: 20px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.header-title .mechanics {
+  font-size: 14px;
+  background-color: #ffcb7742;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-radius: 10px;
+}
+
+.header-title #round, #score {
+  font-size: 18px;
+}
+
+.cards #card1, #card2, #card3 {
+  font-size: 18px;
+  color: #227c9d;
+  font-weight: 900;
+}
+
+.btn1 {
+  position: relative;
+  background-color: #17c3b2;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 100px;
+  margin-right: 7rem;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn1:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn1:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s
+}
+
+.btn2 {
+  position: relative;
+  bottom: 59px;
+  left: 55px;
+  background-color: #fe6d73;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 100px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn2:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn2:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
+
+.btn3 {
+  position: relative;
+  background-color: #ffcb77;
+  bottom: 60px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  color: #FFFFFF;
+  padding: 10px;
+  width: 210px;
+  text-align: center;
+  transition-duration: 0.4s;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn3:after {
+  content: "";
+  background: #f1f1f1;
+  display: block;
+  position: absolute;
+  padding-top: 300%;
+  padding-left: 350%;
+  margin-left: -20px !important;
+  margin-top: -120%;
+  opacity: 0;
+  transition: all 0.8s
+}
+
+.btn3:active:after {
+  padding: 0;
+  margin: 0;
+  opacity: 1;
+  transition: 0s;
+}
